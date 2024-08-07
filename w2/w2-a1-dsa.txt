@@ -1,0 +1,48 @@
+Solutions:
+
+Exercise 1
+
+1. Base value of binary, octal and hexadecimal number system are 2, 8 and 16 respectively.
+2. ASCII: American Standard Code for Information Interchange
+   ISCII: Indian Script Code for Information Interchange
+
+
+Exercise 2
+
+1. (514)10 = (?)8
+    5 * (8**2) + 1 *(8** 1) + 4*(8**0) 
+    = 332
+
+2. (220)8 = (?)10
+    2* (10**2) + 2 * (10**1) + 2*(10**0)
+    = 222
+
+3. (76F)16 = (?)10
+    7*(16**2) + 6*(16**1) + 15*(16**0)    
+    = 1903
+
+4. (4D9)16 = (?)10
+    4 *(16**2) + 14*(16) + 9
+    =1257
+
+5. (11001010)2 = (?)10
+    1*(2**7) + 1*(2**6) + 0 *(2**5) + 0 *(2**4) + 1*(2**3) +  0*(2**2) + 1*(2**1) + 0*(2**0)  
+    =202
+
+6. (1010111)2 = (?)10
+    1*(2**6) + 0 *(2**5) + 1 *(2**4) + 0*(2**3) +  1*(2**2) + 1*(2**1) + 1*(2**0) 
+    =87
+
+Exercise 10
+
+1. Base value of the hexadecimal number system (0-9, A-F) is
+    16
+
+
+
+       
+
+
+
+
+

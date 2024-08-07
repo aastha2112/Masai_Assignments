@@ -1,0 +1,46 @@
+
+// ### Problem Description
+
+// Write the Psuedocode for below :
+
+// You are provided with the dimensions of two rectangles. For the first rectangle, you have lengths L1 and B1, and for the second rectangle, you have lengths L2 and B2. You need to determine if the area of the first rectangle is greater than the second, and if the perimeter of the first rectangle is greater than the second.
+
+// ### Input
+
+// **Input Format:**
+// The first line of input contains four space-separated integers representing the lengths and breadths of two rectangles: L1, B1, L2, B2.
+
+// **Constraints:**
+
+// - 1 ≤ L1, B1, L2, B2 ≤ 100
+
+// ### Output
+
+// **Output Format:**
+
+// - On the first line, print "true" if the area of rectangle 1 is greater than the area of rectangle 2; otherwise, print "false".
+// - On the second line, print "true" if the perimeter of rectangle 1 is greater than the perimeter of rectangle 2; otherwise, print "false".
+
+
+// ### Sample Input 1
+
+Input: L1 , B1, L2, B2
+Begin 
+    Set areaOfRect1 to (L1 * B1)
+    Set areaOfRect2 to (L2 * B2)
+    Set periOfRect1 to (2 * (L1 + B1))
+    Set periOfRect2 to (2 * (L2 + B2))
+    if areaOfRect1 > areaOfRect2 
+        Print 'true'
+    else 
+        Print 'false'
+    if periOfRect1 > periOfRect2
+        Print 'true' 
+    else 
+        Print 'false'       
+End
+
+
+
+
+
