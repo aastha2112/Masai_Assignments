@@ -8,12 +8,24 @@
 // 2. Generate a hollow right triangle pattern using asterisks (\*) and spaces, adhering to the specified size.
 
 // ### Example:
-
 // **Input:**
-
-// ```
 // Enter the size of the triangle: 5
-
-// ```
-
 // **Output:**
+// *
+// **
+// * *
+// *  *
+// *****
+
+function hollowRightTriangle(num) {
+  for (let i = 0; i < num; i++) {
+    let cont = "";
+
+    for (let j = i; j >= 0; j--) {
+      cont += "*";
+    }
+    console.log(cont);
+  }
+}
+
+hollowRightTriangle(5);

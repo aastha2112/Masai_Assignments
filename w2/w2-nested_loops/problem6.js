@@ -12,3 +12,21 @@
 //   *******
 //  *********
 // ***********
+
+function pyramid(num) {
+  for (let i = 0; i < num; i++) {
+    let cont = "";
+    for (let j = 0; j < num - i; j++) {
+      cont += " ";
+    }
+    for (let j = 0; j <= i; j++) {
+      cont += "*";
+    }
+    for (let j = i - 1; j >= 0; j--) {
+      cont += "*";
+    }
+    console.log(cont);
+  }
+}
+
+pyramid(6);

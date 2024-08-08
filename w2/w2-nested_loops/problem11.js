@@ -13,3 +13,17 @@
 // 22
 // 333
 // 4444
+
+function numberTriangle(num) {
+  for (let i = 0; i < num; i++) {
+    let cont = "";
+    let count = 0;
+
+    for (let j = i; j >= 1; j--) {
+      cont += i;
+    }
+    console.log(cont);
+  }
+}
+
+numberTriangle(5);

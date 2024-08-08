@@ -13,14 +13,29 @@
 //   *
 
 function diamond(num) {
-  for (let i = 0; i < num; i++) {
+  for (let i = 0; i <= num / 2; i++) {
     let cont = "";
-    for (let j = 0; j < num; j++) {
-      if (i + j == num - 1) {
-        cont += "*";
-      } else {
-        cont += " ";
-      }
+    for (let j = 0; j < num - i; j++) {
+      cont += " ";
+    }
+    for (let j = 0; j <= i; j++) {
+      cont += "*";
+    }
+    for (let j = i - 1; j >= 0; j--) {
+      cont += "*";
+    }
+    console.log(cont);
+  }
+  for (let i = num / 2 - 1; i >= 0; i--) {
+    let cont = "";
+    for (let j = 0; j < num - i; j++) {
+      cont += " ";
+    }
+    for (let j = 0; j <= i; j++) {
+      cont += "*";
+    }
+    for (let j = i - 1; j >= 0; j--) {
+      cont += "*";
     }
     console.log(cont);
   }
